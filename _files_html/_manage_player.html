@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaya-tany Game</title>
+    <link rel="stylesheet" href="../_files_css/_function/style.css">
+    <link rel="stylesheet" href="../_files_css/_manage_player.css">
+</head>
+<body>
+    <div class="_login_account">
+        <div class="_descri_game">
+            <div id="_title_descri">
+                <h1>Welcome in . . .</h1>
+                <span>. . . Jaya-tany</span>
+            </div>
+            <p>L'écran s'ouvre sur un magnifique lever de soleil au-dessus des collines pittoresques de Jaya-tany, créant des ombres dorées qui dansent sur la végétation luxuriante. Une voix mystérieuse raconte les légendes anciennes qui imprègnent les terres, dévoilant des histoires de héros légendaires et de créatures mythiques.</p>
+            <p>Vous incarnez Nirina, un jeune habitant du village de Ganjah-ma. Votre aventure commence alors que vous vous réveillez dans votre humble maison, impatiemment désireux de commencer la journée.</p>
+            <div id="_img_descri">
+                <img id="_img_descri_gauche" src="../_files_data/_image/_other/_desci_game_1.jpg" alt="image_descri_game">
+                <img id="_img_descri_centre" src="../_files_data/_image/_other/_desci_game_2.jpg" alt="image_descri_game">
+                <img id="_img_descri_droite" src="../_files_data/_image/_other/_desci_game_3.jpg" alt="image_descri_game">
+            </div>
+        </div>
+        <div class="_div_login">
+            <form action="" method="post">
+                <fieldset>
+                    <legend>-- login...</legend>
+                    <label for="pseudo_">Quel est votre pseudo ?</label><input type="text" name="pseudo_" id="pseudo_" required /><br>
+                    <label for="email">Quel est votre e-mail ?</label><input type="email" name="email" id="email" required /><br>
+                    <input id="_input_login" type="submit" value=" connect ">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="manage_player">
+        <form id="_manage_player" action="#" method="post">
+            <fieldset id="info_">
+                <legend>Info player</legend>
+                <label for="nom_">Quel est votre nom ?</label><input type="text" name="nom_" id="nom_" required /><br>
+                <label for="pseudo_">Quel est votre pseudo ?</label><input type="text" name="pseudo_" id="pseudo_" required /><br>
+                <label for="email">Quel est votre e-mail ?</label><input type="email" name="email" id="email" required />
+            </fieldset>
+            <fieldset id="race_">
+                <legend>Your race</legend>
+                <table>
+                    <tr>
+                        <td rowspan="2"><img id="img_player_race" src="../_files_data/_image/_race/race_autre.png" alt="img_player" ></td>
+                        <td><a id="race_femme" href="#"> femme </a><a id="race_homme" href="#"> homme </a><a id="race_autre" href="#"> autre </a></td>
+                    </tr>
+                    <tr><td rowspan="2"><p><h1 id="titre_race">_hafa</h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis unde, voluptatum atque beatae, maxime ducimus, accusantium suscipit nisi soluta sapiente blanditiis corporis sequi minus! Vel perferendis doloremque soluta dolorem illum.</p></td></tr>
+                    <tr>
+                        <td><a id="race_prev" href="#"> prev </a><a id="race_valide" href="#"> valider </a><a id="race_next" href="#"> next</a></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset id="cara_">
+                <legend>Charactéres</legend>
+                <table>
+                    <tr>
+                        <td rowspan="2">image</td>
+                        <td><a id="cara_apt_prev" href="#"> prev </a><a id="cara_apt_valide" href="#"> valider </a><a id="cara_apt_next" href="#"> next</a></td>
+                    </tr>
+                    <tr><td><h2>Aptitude : <span id="titre_apt">aventurier</span></h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aut mollitia cum quaerat quas aspernatur voluptatum vero incidunt, nostrum eaque voluptatibus dolorem, quasi eveniet aperiam dignissimos delectus ipsum ratione nam?</p></td></tr>
+                    <tr>
+                        <td rowspan="2">image</td>
+                        <td><a id="cara_off_prev" href="#"> prev </a><a id="cara_off_valide" href="#"> valider </a><a id="cara_off_next" href="#"> next</a></td>
+                    </tr>
+                    <tr><td><h2>Arme offensif : <span id="titre_off">epee</span></h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aut mollitia cum quaerat quas aspernatur voluptatum vero incidunt, nostrum eaque voluptatibus dolorem, quasi eveniet aperiam dignissimos delectus ipsum ratione nam?</p></td></tr>
+                    <tr>
+                        <td rowspan="2">image</td>
+                        <td><a id="cara_def_prev" href="#"> prev </a><a id="cara_def_valide" href="#"> valider </a><a id="cara_def_next" href="#"> next</a></td>
+                    </tr>
+                    <tr><td><h2>Arme defensif : <span id="titre_def">bouclier</span></h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aut mollitia cum quaerat quas aspernatur voluptatum vero incidunt, nostrum eaque voluptatibus dolorem, quasi eveniet aperiam dignissimos delectus ipsum ratione nam?</p></td></tr>
+                </table>
+            </fieldset>
+            <input id="input_submit" type="submit" value="valide">
+        </form>
+    </div>
+    <div class="_other">
+
+    </div>
+</body>
+</html>

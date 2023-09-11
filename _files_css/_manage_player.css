@@ -1,0 +1,93 @@
+
+._login_account {
+    height: 110vh;
+    /* border: 1px solid whitesmoke; */
+    position: relative;
+}
+._descri_game {
+    width: 60%;
+    border: 3px solid #09abf7;
+    border-radius: 10px;
+    padding: 20px;
+}
+._div_login {
+    width: 30%;
+}
+._descri_game, ._div_login {
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px 20px;
+}
+#_title_descri {
+    position: relative;
+    /* border: 1px solid whitesmoke; */
+    width: 31%;
+    margin: 0 0 30px 20%;
+    color: whitesmoke;
+}
+#_title_descri h1 {
+    font-size: 2.5em;
+
+}
+#_title_descri span {
+    position: absolute;
+    font-size: 1.7em;
+    top: 80%;
+    right: 4%;
+}
+._descri_game p {
+    font-size: 1.3em;
+    padding: 10px;
+    text-align: justify;
+}
+#_img_descri {
+    position: relative;
+    justify-items: center;
+}
+#_img_descri img {
+    border-radius: 15px;
+}
+#_img_descri #_img_descri_gauche {
+    height: 200px;
+    width: 20%;
+    margin-bottom: 100px;
+}
+#_img_descri #_img_descri_centre {
+    height: 400px;
+    width: 55%;
+}
+#_img_descri #_img_descri_droite {
+    height: 200px;
+    width: 20%;
+    margin-bottom: 100px;
+}
+
+/* -------------------------------------- */
+.manage_player{
+    border: 5px dashed #09abf7;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+.manage_player fieldset {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+#race_ p {
+    text-align: justify;
+    padding: 5px;
+}
+#input_submit {
+    width: 10%;
+    height: 30px;
+    margin-left: 45%;
+    background: #0ff;
+    color: red;
+    font-size: larger;
+}
+._other {
+    height: 30vh;
+    border: 1px solid whitesmoke;
+}
